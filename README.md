@@ -67,3 +67,70 @@ The trained model successfully predicts passenger survival with reasonable accur
 
 ## Author
 KrishnaBhargavi
+
+
+
+📌Task 2 - Movie Rating Prediction using Machine Learning
+
+## Project Overview
+
+-The Movie Rating Prediction project focuses on predicting the rating of a movie based on its features such as genre, director, actors, and other attributes using machine learning regression techniques.
+
+-This project demonstrates the complete data science workflow including data preprocessing, feature encoding, model training, and evaluation using Python.
+
+## Objective
+
+-To build a regression-based machine learning model that can accurately predict movie ratings from historical movie data.
+
+##Dataset Information
+
+-Dataset Type: CSV file
+-File Name: movies.csv
+-Content: Movie-related attributes and their corresponding ratings
+-Target Variable: rating (continuous numeric value)
+
+Example Features
+-Genre
+-Director
+-Cast / Actors
+-Other movie attributes (based on dataset)
+
+##echnologies & Tools Used
+
+-Programming Language: Python
+-Platform: Google Colab
+-Libraries:
+-Pandas
+-NumPy
+-Matplotlib
+-Seaborn
+-Scikit-learn
+--Version Control: Git & GitHub
+
+##Machine Learning Approach
+
+-Problem Type: Regression
+-Algorithm Used: Linear Regression
+
+##Project Workflow
+
+-Dataset loading and inspection
+-Exploratory data analysis
+-Handling missing values
+-Encoding categorical variables
+-Feature selection
+-Train–test split
+-Model training
+-Rating prediction
+-Model evaluation using regression metrics
+
+##Model Evaluation Metrics
+
+-Mean Squared Error (MSE) – Measures average prediction error
+-R² Score – Indicates how well the model explains variance in movie ratings
+
+##Results & Observations
+
+-Categorical feature encoding played a key role in model performance
+-Proper data cleaning improved prediction accuracy
+-The regression model successfully learned patterns in movie rating data
