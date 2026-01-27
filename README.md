@@ -82,20 +82,20 @@ KrishnaBhargavi
 
 -To build a regression-based machine learning model that can accurately predict movie ratings from historical movie data.
 
-##Dataset Information
+## Dataset Information
 
 -Dataset Type: CSV file
 -File Name: movies.csv
 -Content: Movie-related attributes and their corresponding ratings
 -Target Variable: rating (continuous numeric value)
 
-Example Features
+## Example Features
 -Genre
 -Director
 -Cast / Actors
 -Other movie attributes (based on dataset)
 
-##echnologies & Tools Used
+## Technologies & Tools Used
 
 -Programming Language: Python
 -Platform: Google Colab
@@ -107,7 +107,7 @@ Example Features
 -Scikit-learn
 --Version Control: Git & GitHub
 
-##Machine Learning Approach
+## Machine Learning Approach
 
 -Problem Type: Regression
 -Algorithm Used: Linear Regression
@@ -146,3 +146,92 @@ Example Features
 -Perform hyperparameter tuning
 -Add feature importance analysis
 -Improve prediction accuracy with more data
+
+📌 Task-3 Sales Prediction using Machine Learning 
+ ## Project Overview
+
+-The Sales Prediction project focuses on forecasting product sales based on historical data using Machine Learning techniques. Accurate sales prediction helps businesses in inventory management, revenue planning, and decision-making.
+
+-This project demonstrates the complete data science workflow, including data preprocessing, exploratory data analysis, model training, and performance evaluation.
+
+##🎯 Problem Statement
+
+-The objective of this project is to build a machine learning model that predicts future sales based on factors such as advertising spend, product attributes, or historical sales patterns.
+
+##📊 Dataset Information
+
+-Dataset Type: CSV file
+-Dataset Name: Sales Dataset
+-Target Variable: Sales (continuous numeric value)
+-Example Features
+-Advertising spend (TV, Radio, Newspaper)
+-Product / Store attributes
+-Time-based features (if available)
+-Other relevant independent variables
+
+##🛠 Technologies & Tools Used
+
+-Programming Language: Python
+-Platform: Google Colab
+-Libraries:
+-Pandas
+-NumPy
+-Matplotlib
+-Seaborn
+-Scikit-learn
+-Version Control: Git & GitHub
+
+##🤖 Machine Learning Approach
+
+-Problem Type: Regression
+-Algorithms Used:
+-Linear Regression
+-(Optional) Decision Tree Regressor
+-(Optional) Random Forest Regressor
+
+##🔄 Project Workflow
+
+-Dataset loading and inspection
+-Exploratory Data Analysis (EDA)
+-Data cleaning and preprocessing
+-Handling missing values
+-Feature selection
+-Train–test split
+-Model training
+-Sales prediction
+-Model evaluation
+
+##📈 Model Evaluation Metrics
+
+-Mean Squared Error (MSE) – Measures average prediction error
+-Mean Absolute Error (MAE) – Measures average absolute error
+-R² Score – Indicates how well the model explains variance in sales
+
+##📂 Repository Contents
+
+-sales_prediction.ipynb – Complete Google Colab notebook
+-sales.csv – Dataset file
+-README.md – Project documentation
+
+##▶️ How to Run the Project
+
+-Clone the repository
+-Open the notebook in Google Colab
+-Upload the dataset (sales.csv)
+-Run all cells sequentially
+
+##✅ Results
+
+-The trained regression model successfully predicts sales with reasonable accuracy, showing the effectiveness of data preprocessing and regression techniques.
+
+##🧾 Conclusion
+
+-This project demonstrates how machine learning regression models can be used for sales forecasting. Proper feature selection and data preprocessing play a crucial role in improving prediction accuracy.
+
+##🔮 Future Enhancements
+
+-Use advanced regression models (XGBoost, Random Forest)
+-Perform hyperparameter tuning
+-Add feature importance analysis
+-Incorporate time-series forecasting techniques
+-Improve accuracy with larger datasets
