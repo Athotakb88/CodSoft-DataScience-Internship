@@ -1,6 +1,6 @@
 # CodSoft-DataScience-Internship
 
-# Task 1 Titanic Survival Prediction
+#  Titanic Survival Prediction
 
 ## Project Overview
 This project predicts the survival of passengers on the Titanic using Machine Learning techniques.
@@ -70,7 +70,7 @@ KrishnaBhargavi
 
 
 
-📌Task 2 - Movie Rating Prediction using python
+📌 Movie Rating Prediction using python
 
 ## Project Overview
 
@@ -153,7 +153,7 @@ KrishnaBhargavi
 
 
 
-📌 Task-3 Sales Prediction using Python
+📌 Sales Prediction using Python
  ## Project Overview
 
 -The Sales Prediction project focuses on forecasting product sales based on historical data using Machine Learning techniques. Accurate sales prediction helps businesses in inventory management, revenue planning, and decision-making.
@@ -248,7 +248,7 @@ KrishnaBhargavi
 
 
 
- 📌  Task 4 Credit Card Fraud Detection using Machine Learning
+ 📌 Credit Card Fraud Detection using Machine Learning
 
 ## 📌 Project Overview
 This project focuses on detecting fraudulent credit card transactions using Machine Learning techniques. Due to the highly imbalanced nature of fraud datasets, effective modeling and evaluation are crucial to accurately identify fraudulent activities while minimizing false positives.
