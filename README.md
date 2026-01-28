@@ -70,7 +70,7 @@ KrishnaBhargavi
 
 
 
-📌Task 2 - Movie Rating Prediction using Machine Learning
+📌Task 2 - Movie Rating Prediction using python
 
 ## Project Overview
 
@@ -153,7 +153,7 @@ KrishnaBhargavi
 
 
 
-📌 Task-3 Sales Prediction using Machine Learning 
+📌 Task-3 Sales Prediction using Python
  ## Project Overview
 
 -The Sales Prediction project focuses on forecasting product sales based on historical data using Machine Learning techniques. Accurate sales prediction helps businesses in inventory management, revenue planning, and decision-making.
