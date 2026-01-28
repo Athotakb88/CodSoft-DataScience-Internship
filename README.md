@@ -243,9 +243,9 @@ KrishnaBhargavi
 
 
 
-# Credit Card Fraud Detection using Machine Learning
+ 📌  Task 4 Credit Card Fraud Detection using Machine Learning
 
-## 📌 Project Overview
+##Project Overview
 Credit card fraud detection is a critical application of machine learning that helps financial institutions identify unauthorized or fraudulent transactions.  
 This project focuses on building a **classification model** that can accurately distinguish between **genuine** and **fraudulent** credit card transactions.
 
