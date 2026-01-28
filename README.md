@@ -235,3 +235,145 @@ KrishnaBhargavi
 -Add feature importance analysis
 -Incorporate time-series forecasting techniques
 -Improve accuracy with larger datasets
+
+
+
+
+
+
+
+
+# Credit Card Fraud Detection using Machine Learning
+
+## 📌 Project Overview
+Credit card fraud detection is a critical application of machine learning that helps financial institutions identify unauthorized or fraudulent transactions.  
+This project focuses on building a **classification model** that can accurately distinguish between **genuine** and **fraudulent** credit card transactions.
+
+The major challenge in this problem is that fraud transactions are **very rare**, leading to a **highly imbalanced dataset**. Special preprocessing and resampling techniques are required to build an effective model.
+
+---
+
+## 🎯 Objective
+The main objectives of this project are:
+- To analyze and preprocess credit card transaction data
+- To handle class imbalance using resampling techniques
+- To train machine learning models to detect fraud
+- To evaluate model performance using appropriate metrics
+
+---
+
+## 🗂 Dataset Description
+- Dataset contains credit card transactions made by users
+- Most features are anonymized numerical values
+- The target variable is `Class`:
+  - `0` → Genuine transaction
+  - `1` → Fraudulent transaction
+
+### Key Characteristics:
+- Highly imbalanced dataset
+- Fraud cases represent a very small percentage of total transactions
+- Requires special evaluation metrics beyond accuracy
+
+---
+
+## 🛠 Tools & Technologies Used
+- **Programming Language**: Python  
+- **Platform**: Google Colab  
+- **Version Control**: GitHub  
+- **Libraries**:
+  - NumPy
+  - Pandas
+  - Matplotlib
+  - Seaborn
+  - Scikit-learn
+  - Imbalanced-learn (SMOTE)
+
+---
+
+## 🔄 Project Workflow
+1. Data Loading
+2. Exploratory Data Analysis (EDA)
+3. Data Preprocessing
+4. Feature Scaling
+5. Handling Class Imbalance
+6. Train-Test Split
+7. Model Training
+8. Model Evaluation
+9. Result Comparison and Conclusion
+
+---
+
+## 🔍 Data Preprocessing
+- Checked for missing values
+- Normalized numerical features using **StandardScaler**
+- Separated features and target variable
+- Identified class imbalance problem
+
+---
+
+## ⚖ Handling Class Imbalance
+Since fraud transactions are very few, **SMOTE (Synthetic Minority Over-sampling Technique)** was used:
+- Creates synthetic fraud samples
+- Balances the dataset
+- Improves model learning and recall
+
+---
+
+## 🤖 Machine Learning Models Used
+
+### 1. Logistic Regression
+- Used as a baseline model
+- Simple and interpretable
+- Works well for linear classification problems
+
+### 2. Random Forest Classifier
+- Ensemble learning technique
+- Handles non-linearity and imbalance effectively
+- Provides better performance for fraud detection
+
+---
+
+## 📊 Model Evaluation Metrics
+Accuracy alone is not sufficient due to class imbalance.  
+The following metrics were used:
+
+- **Precision** – Correctly predicted frauds out of total predicted frauds
+- **Recall** – Correctly detected frauds out of actual frauds
+- **F1-Score** – Balance between precision and recall
+- **Confusion Matrix** – Visualization of prediction results
+
+📌 **Recall is given higher importance** to minimize missed fraud cases.
+
+---
+
+## 🏆 Results
+- Logistic Regression provided reasonable performance
+- Random Forest achieved better precision, recall, and F1-score
+- SMOTE significantly improved fraud detection capability
+
+---
+
+## ✅ Conclusion
+This project demonstrates how machine learning can be effectively used to detect fraudulent credit card transactions.  
+By addressing class imbalance and using appropriate evaluation metrics, the Random Forest model delivered reliable performance in identifying fraud cases.
+
+---
+
+## 🚀 Future Enhancements
+- Implement advanced models like XGBoost or LightGBM
+- Perform hyperparameter tuning
+- Use real-time transaction data
+- Deploy the model as a web application
+
+---
+
+## 📁 Repository Contents
+- `Credit_Card_Fraud_Detection.ipynb` – Complete implementation
+- `creditcard.csv` – Dataset (optional)
+- `README.md` – Project documentation
+
+---
+
+## 👤 Author
+**Krishna Bhargavi**  
+ 
