@@ -1,6 +1,6 @@
 # CodSoft-DataScience-Internship
 
-# Titanic Survival Prediction
+# Task 1 Titanic Survival Prediction
 
 ## Project Overview
 This project predicts the survival of passengers on the Titanic using Machine Learning techniques.
@@ -147,6 +147,12 @@ KrishnaBhargavi
 -Add feature importance analysis
 -Improve prediction accuracy with more data
 
+## Author
+KrishnaBhargavi
+
+
+
+
 📌 Task-3 Sales Prediction using Machine Learning 
  ## Project Overview
 
@@ -237,37 +243,40 @@ KrishnaBhargavi
 -Improve accuracy with larger datasets
 
 
-
-
-
+## Author
+KrishnaBhargavi
 
 
 
  📌  Task 4 Credit Card Fraud Detection using Machine Learning
 
-##Project Overview
-Credit card fraud detection is a critical application of machine learning that helps financial institutions identify unauthorized or fraudulent transactions.  
-This project focuses on building a **classification model** that can accurately distinguish between **genuine** and **fraudulent** credit card transactions.
+## 📌 Project Overview
+This project focuses on detecting fraudulent credit card transactions using Machine Learning techniques. Due to the highly imbalanced nature of fraud datasets, effective modeling and evaluation are crucial to accurately identify fraudulent activities while minimizing false positives.
 
-The major challenge in this problem is that fraud transactions are **very rare**, leading to a **highly imbalanced dataset**. Special preprocessing and resampling techniques are required to build an effective model.
+The project uses the **Credit Card Fraud Detection dataset** and implements a **Random Forest Classifier** to classify transactions as legitimate or fraudulent.
 
 ---
 
 ## 🎯 Objective
-The main objectives of this project are:
-- To analyze and preprocess credit card transaction data
-- To handle class imbalance using resampling techniques
-- To train machine learning models to detect fraud
-- To evaluate model performance using appropriate metrics
+- To build a machine learning model that can accurately detect fraudulent credit card transactions.
+- To analyze model performance using appropriate evaluation metrics such as Precision, Recall, F1-score, Confusion Matrix, and ROC-AUC score.
 
 ---
 
-## 🗂 Dataset Description
-- Dataset contains credit card transactions made by users
-- Most features are anonymized numerical values
-- The target variable is `Class`:
-  - `0` → Genuine transaction
-  - `1` → Fraudulent transaction
+## 📂 Dataset Information
+- **Dataset Name:** Credit Card Fraud Detection
+- **Source:** Kaggle
+- **Total Transactions:** 284,807
+- **Fraudulent Transactions:** 492
+- **Legitimate Transactions:** 284,315
+- **Features:** 30 numerical features (`V1` to `V28`, `Time`, `Amount`)
+- **Target Variable:** `Class`
+  - `0` → Legitimate Transaction  
+  - `1` → Fraudulent Transaction
+
+> Note: The dataset is highly imbalanced, making fraud detection a challenging task.
+
+---
 
 ### Key Characteristics:
 - Highly imbalanced dataset
@@ -290,80 +299,54 @@ The main objectives of this project are:
 
 ---
 
-## 🔄 Project Workflow
-1. Data Loading
-2. Exploratory Data Analysis (EDA)
-3. Data Preprocessing
-4. Feature Scaling
-5. Handling Class Imbalance
-6. Train-Test Split
-7. Model Training
-8. Model Evaluation
-9. Result Comparison and Conclusion
+## ⚙️ Methodology
+1. Loaded and explored the dataset.
+2. Performed feature–target separation.
+3. Split the dataset into training and testing sets using an 80:20 ratio with stratification.
+4. Trained a **Random Forest Classifier** with optimized hyperparameters.
+5. Generated predictions on the test dataset.
+6. Evaluated the model using standard classification metrics.
 
 ---
 
-## 🔍 Data Preprocessing
-- Checked for missing values
-- Normalized numerical features using **StandardScaler**
-- Separated features and target variable
-- Identified class imbalance problem
+## 🤖 Machine Learning Model
+- **Random Forest Classifier**
+  - Handles non-linearity well
+  - Performs effectively on imbalanced datasets
+  - Reduces overfitting using ensemble learning
 
 ---
 
-## ⚖ Handling Class Imbalance
-Since fraud transactions are very few, **SMOTE (Synthetic Minority Over-sampling Technique)** was used:
-- Creates synthetic fraud samples
-- Balances the dataset
-- Improves model learning and recall
+## 📊 Evaluation Metrics
+The model performance was evaluated using:
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
+- ROC–AUC Score
+
+These metrics provide a comprehensive understanding of the model’s ability to detect fraudulent transactions.
 
 ---
 
-## 🤖 Machine Learning Models Used
-
-### 1. Logistic Regression
-- Used as a baseline model
-- Simple and interpretable
-- Works well for linear classification problems
-
-### 2. Random Forest Classifier
-- Ensemble learning technique
-- Handles non-linearity and imbalance effectively
-- Provides better performance for fraud detection
+## 📈 Results
+- The Random Forest model achieved high accuracy.
+- Precision and recall values indicate effective fraud detection.
+- Confusion Matrix visualization highlights correct and incorrect classifications.
+- ROC-AUC score demonstrates strong discriminative ability between fraud and non-fraud transactions.
 
 ---
 
-## 📊 Model Evaluation Metrics
-Accuracy alone is not sufficient due to class imbalance.  
-The following metrics were used:
-
-- **Precision** – Correctly predicted frauds out of total predicted frauds
-- **Recall** – Correctly detected frauds out of actual frauds
-- **F1-Score** – Balance between precision and recall
-- **Confusion Matrix** – Visualization of prediction results
-
-📌 **Recall is given higher importance** to minimize missed fraud cases.
-
----
-
-## 🏆 Results
-- Logistic Regression provided reasonable performance
-- Random Forest achieved better precision, recall, and F1-score
-- SMOTE significantly improved fraud detection capability
-
----
-
-## ✅ Conclusion
-This project demonstrates how machine learning can be effectively used to detect fraudulent credit card transactions.  
-By addressing class imbalance and using appropriate evaluation metrics, the Random Forest model delivered reliable performance in identifying fraud cases.
+## 📌 Conclusion
+The Random Forest model proved to be effective in detecting fraudulent credit card transactions. Despite the class imbalance, the model achieved strong performance across evaluation metrics. This approach can assist financial institutions in reducing fraud-related losses.
 
 ---
 
 ## 🚀 Future Enhancements
-- Implement advanced models like XGBoost or LightGBM
-- Perform hyperparameter tuning
-- Use real-time transaction data
-- Deploy the model as a web application
+- Apply SMOTE or other resampling techniques to handle class imbalance.
+- Compare performance with other models such as Logistic Regression, XGBoost, or Neural Networks.
+- Deploy the model as a web application for real-time fraud detection.
 
 ---
 
@@ -375,5 +358,6 @@ By addressing class imbalance and using appropriate evaluation metrics, the Rand
 ---
 
 ## 👤 Author
-**Krishna Bhargavi**  
+**Krishna Bhargavi**
+
  
